@@ -1,0 +1,71 @@
+.img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.img_transition {
+  transition: all 1000ms;
+}
+
+.modal_wrap {
+  display: flex;
+  align-items: center;
+  height: 90%;
+  width: 100%;
+  padding: 0.5rem 0;
+}
+
+.layout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.close_icon {
+  align-self: flex-end;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.left_arrow {
+  transform: rotate(180deg);
+}
+
+.move_left_current_img {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.hide_img_right {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.apply_transition {
+  transition: transform 1000ms, opacity 1000ms;
+}
+.move_img_right {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.hide_img_left {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.move_img_left {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.modal_img_move_left {
+  transform: translateX(0);
+  opacity: 1;
+}

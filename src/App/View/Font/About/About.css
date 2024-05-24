@@ -1,0 +1,475 @@
+.about_page_social {
+    background: #F8F8F8;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.social_txt h2 {
+    color: #263238;
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 10px;
+}
+
+.social_txt {
+    width: 100%;
+    max-width: 42%;
+}
+
+.social_txt p {
+    color: #939393;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.social_txt_img_flx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scl_img {
+    width: 395px;
+    height: 308px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.scl_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.sclbnr_img {
+    width: 100%;
+    height: 400px;
+}
+
+.sclbnr_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.scl_bnr_box {
+    border-radius: 10px;
+    background: #F1F1F1;
+    width: 100%;
+    padding: 12px;
+}
+
+.scl_bnr_box_main_flx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%
+}
+
+.scl_bnr_box h5 {
+    color: #263238;
+    font-family: 'Poppins';
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.scl_bnr_box h4 {
+    color: #128C7E;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.scl_bnr_box p {
+    color: #434343;
+    font-family: 'Poppins';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.scl_bnr_box_main {
+    padding-top: 30px;
+}
+
+/****about_page_mission start ****/
+.about_page_mission {
+    background: url(../../../images/msn_bg.png) 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.msn_img_txt_flx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+.msn_txt {
+    width: 100%;
+    max-width: 40%;
+}
+
+.msn_txt h5 {
+    color: #128C7E;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+.msn_txt h2 {
+    color: #263238;
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 10px;
+}
+
+.about_page_mission .jntmbtn_main {
+    width: 100%;
+}
+
+.about_page_mission .jntmbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #128C7E;
+    background: #128C7E;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    max-width: 40%;
+    width: 100%;
+    padding: 15px;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.jntmbtn:hover {
+    color: #FFF;
+}
+
+.msn_img {
+
+    width: 347px;
+    height: 373px;
+    position: relative;
+
+}
+
+.msn_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.ceo_box {
+    position: absolute;
+    top: 62%;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 3px 3px 32px 0px rgba(0, 0, 0, 0.25);
+    padding: 9px 30px;
+    left: -27%;
+}
+
+.ceo_box h4 {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.ceo_box p {
+    color: #128C7E;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.stry_img_txt_flx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.stry_img {
+    width: 435px;
+    height: 294px;
+}
+
+.stry_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.msn_txt p {
+    color: #939393;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-bottom: 15px;
+}
+
+/****about_page_mission end ****/
+
+/**** about_page_team start ****/
+.about_page_team {
+    background: #F8F8F8;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.amnz_txt h2 {
+    color: #263238;
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: center;
+}
+
+.join_tm_main_flx {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2%;
+    flex-wrap: wrap;
+    padding-top: 20px;
+
+}
+
+.join_tm_img {
+    width: 247px;
+    height: 305px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.join_tm_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.about_page_team .jntmbtn_main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about_page_team .jntmbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #128C7E;
+    background: #128C7E;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    max-width: 16%;
+    width: 100%;
+    padding: 15px;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.bg_lght_box {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.05);
+    /* top: 60%; */
+    bottom: 3%;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.bg_lght_box h4 {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+.bg_lght_box p {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+/**** about_page_team end ****/
+@media(max-width:1199px){
+    .about_page_mission .jntmbtn {
+        max-width: 50%;
+        width: 100%;
+    }
+    .about_page_team .jntmbtn {
+        max-width: 25%;
+        width: 100%;
+    }
+}
+@media(max-width:991px) {
+    .social_txt h2 {
+        font-size: 29px;
+        line-height: 32px;
+    }
+
+    .social_txt p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    span.scl_txt {
+        font-size: 29px;
+        line-height: 32px;
+    }
+
+    .social_txt_img_flx {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .social_txt {
+        max-width: 100%;
+        padding-top: 15px;
+    }
+
+    .msn_txt h2 {
+        font-size: 29px;
+        line-height: 32px;
+    }
+
+    .msn_txt p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .msn_img {
+        width: 292px;
+        height: 321px;
+        position: relative;
+    }
+
+    .jntmbtn {
+        max-width: 70%;
+    }
+
+    .stry_img {
+        width: 344px;
+        height: 299px;
+    }
+
+    /* .msn_txt h2{
+        font-size: 29px;
+        line-height: 32px;
+    } */
+    span.scl_txt {
+        font-size: 29px;
+        line-height: 32px;
+    }
+
+
+}
+
+@media(max-width:767px) {
+    .msn_img_txt_flx {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .msn_txt {
+        width: 100%;
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    .msn_img {
+        margin-top: 30px;
+    }
+
+    .jntmbtn {
+        max-width: 40%;
+    }
+
+    .scl_bnr_box_main_flx {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .stry_img_txt_flx {
+        flex-wrap: wrap;
+    }
+
+    .stry_img {
+        margin: auto;
+    }
+    .about_page_team .jntmbtn {
+        max-width: 45%;
+        width: 100%;
+    }
+}
+
+@media(max-width:576px) {
+    .ceo_box {
+        top: 83%;
+        left: 15%;
+    }
+
+}
+
+@media(max-width:420px) {
+    .social_txt h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    span.scl_txt {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .social_txt p {
+        margin-top: 9px;
+        margin-bottom: 6px;
+    }
+    .about_page_team .jntmbtn {
+        max-width: 60%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,438 @@
+/**** Login css start ****/
+.lgnfrm_main_flx {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.lgnfrm_main_lgn_sld {
+    width: 29%;
+    background: #FFF;
+    box-shadow: 14px 0px 78px 0px rgba(0, 0, 0, 0.13);
+    height: 100vh;
+    padding-top: 25px;
+
+}
+
+.sldr_img {
+    width: 253px;
+    height: 303px;
+    margin: auto;
+}
+
+.sldr_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.logolgn_img {
+    width: 159px;
+    height: 40px;
+    margin: 10px auto;
+}
+
+.logolgn_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.lgn_sld_txt h4 {
+    color: #535353;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 23px;
+    padding-top: 20px;
+    padding-bottom: 9px;
+    width: 100%;
+    max-width: 75%;
+    margin: auto;
+}
+
+.lgn_sld_txt p {
+    color: #939393;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.lgn_sld_txt {
+    width: 100%;
+    max-width: 71%;
+    margin: auto;
+}
+
+.lgnfrm_main_sld {
+    position: relative;
+}
+
+.lgnfrm .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 14px;
+    height: 22px;
+    /* margin: 0 5px; */
+    padding: 0;
+    cursor: pointer;
+}
+
+.lgnfrm .slick-dots li button:before {
+    font-size: 9px;
+}
+
+.lgnfrm_main_frm {
+    box-shadow: 14px 0px 78px 0px rgba(0, 0, 0, 0.13);
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lgnfrm_main_frm_wh {
+    width: 40%;
+
+}
+
+.lgnfrm_main_frm_wh h4 {
+    color: #535353;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.lgnfrm_main_frm_wh p {
+
+    color: #535353;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 18px;
+
+}
+
+.rembr_flx {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lgn_btn_main {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lgn_btn {
+    border-radius: 5px;
+    background: #3C9E93;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration: none;
+
+}
+
+.lgn_btn:hover {
+    color: #FFF;
+}
+
+.lgnfrm .divider:after,
+.divider:before {
+    content: "";
+    flex: 1 1;
+    height: 1px;
+    background-color: #00000082;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.lgnfrm .divider:after,
+.divider:before {
+    content: "";
+    flex: 1 1;
+    height: 1px;
+    background-color: #00000082;
+}
+
+.google_btn {
+    border-radius: 7.742px;
+    background: #EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.ggle_fcbk {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.google_btn_main {
+    width: 100%;
+}
+
+.don_txt {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.google_btn img {
+    margin-right: 8px;
+}
+
+.don_txt_sgn {
+    color: #128C7E;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: none;
+    margin-left: 7px;
+}
+
+.don_txt p {
+    color: #535353;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.lgnfrm .inpt_txt {
+    border-radius: 7.698px;
+    background: #F4F4F4;
+    border: none;
+    outline: 0;
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+
+.frgt_psswrd_txt {
+    color: #128C7E;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+.lgn_btn {
+    text-decoration: none;
+    color: #fff;
+}
+
+.form_rltv {
+    position: relative;
+}
+
+.pass_icon {
+    position: absolute;
+    top: 19px;
+    right: 9px;
+}
+
+.logolgn_img_scnd {
+    display: none;
+    width: 137px;
+    height: 40px;
+    margin: auto;
+}
+.logolgn_img_scnd img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Login css end */
+
+.sgnupfrm .inpt_txt {
+    border-radius: 7.698px;
+    background: #F4F4F4;
+    border: none;
+    outline: 0;
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+.sgnfrm_main_frm_wh {
+    width: 60%;
+    margin-left: 40px;
+
+}
+
+.sgnupfrm .divider:after,
+.divider:before {
+    content: "";
+    flex: 1 1;
+    height: 1px;
+    background-color: #00000082;
+}
+
+.frst_lst_flx {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.sgnupfrm .inptwh {
+    max-width: 80%;
+
+}
+
+.trms_cndn {
+    color: #3C9E93;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.cndn_plcy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-Width:991px) {
+    .lgnfrm_main_lgn_sld {
+        width: 45%;
+        height: auto;
+    }
+
+    .lgnfrm_main_frm_wh {
+        width: 65%;
+        margin-left: 20px;
+    }
+
+    .lgnfrm_main_frm {
+        justify-content: flex-start;
+    }
+    .lgnfrm_main_frm {
+        box-shadow: 14px 0px 78px 0px rgba(0, 0, 0, 0.13);
+        width: 80%;
+        height: 100%;
+        display: inherit;
+        /* justify-content: flex-start; */
+        align-items: baseline;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .sgnfrm_main_frm_wh {
+        width: 75%;
+        margin-left: 40px;
+    }
+    .lgnfrm_main_flx{
+     align-items: unset;
+    }
+}
+
+@media(max-Width:767px) {
+    .lgnfrm_main_lgn_sld {
+        width: 45%;
+    }
+
+    .lgnfrm .lgnfrm_main_frm_wh {
+        width: 90%;
+    }
+
+    .lgn_sld_txt h4 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .lgn_sld_txt p {
+
+        font-size: 12px;
+
+        line-height: 16px;
+    }
+
+    .sldr_img {
+        width: 214px;
+        height: 244px;
+
+    }
+}
+
+@media(max-Width:576px) {
+    .lgnfrm_main_frm_wh h4 {
+
+        font-size: 14px;
+        line-height: 19px;
+
+    }
+
+    .lgn_sld_txt h4 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .lgnfrm_main_frm_wh p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .rembr_flx {
+        flex-wrap: wrap;
+    }
+
+    .lgnfrm_main_lgn_sld {
+        display: none;
+    }
+
+    .logolgn_img_scnd {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .sgnfrm_main_frm_wh {
+        width: 85%;
+        margin-left: 35px;
+    }
+    .lgnfrm_main_frm {
+       width: 95%;
+      }
+
+}
+@media(max-width:480px){
+    .lgnfrm .inpt_txt {
+       height: 45px;
+    }
+    .lgnfrm .lgnfrm_main_frm {
+        width: 100%;
+        max-width: 93%;
+        height: 100vh;
+        padding-top: 40px;
+    }
+    .lgnfrm .pass_icon {
+        top: 13px;
+    }
+    .sgnupfrm .inpt_txt {
+        height: 45px;
+    }
+}
